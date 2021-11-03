@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if(e.keyCode === 39) {
             direction = 1;
-        } else if (e.keycode === 38) {
+        } else if (e.keyCode === 38) {
             direction = -width;
         } else if (e.keyCode === 37) {
             direction = -1;
